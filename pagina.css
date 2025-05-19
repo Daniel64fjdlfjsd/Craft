@@ -1,0 +1,172 @@
+{
+	padding: 0;
+	margin: 0;
+	font-family: system-ui;
+
+}
+
+body{
+	background-color: #F98ED7;
+}
+
+header{
+	background-color: white;
+	height: 100px;
+  border-radius: 20px 10px 50px 30px;
+  -webkit-border-radius: 20px 10px 50px 30px;
+  -moz-border-radius: 20px 10px 50px 30px;
+  border: 10px double;
+}
+header div{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100px;
+}
+img{
+	width: 200px;
+
+}
+
+nav{
+	display: flex;
+	gap: 70px;
+}
+
+nav a{
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+	border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+    border-bottom: 2px solid black;
+
+}
+
+@media (max-width: 430px){
+	div{
+		flex-direction: column;
+	}
+	nav{
+		flex-direction: column;
+		text-align: center;
+		margin-top: 20px;
+	}
+	header{
+		height: 430px;
+	}
+	img{
+		padding: 20px;
+	}
+}
+
+center{
+	background-color: white;
+	height: 500px;
+	  border-radius: 20px 10px 50px 30px;
+	  -webkit-border-radius: 20px 10px 50px 30px;
+  -moz-border-radius: 20px 10px 50px 30px;
+  border: 10px double;
+}
+
+imagen1{
+  letter-spacing: 3px; /* Espacio entre letras */
+  word-spacing: 6px; /* Espacio entre palabras */
+  margin: 11px; /* Espacio exterior */
+  padding: 6px; /* Espacio interior */
+  line-height: 1.5; /* Espaciado entre líneas */
+}
+
+contenedor-imagenes {
+  display: flex;
+  flex-direction: row; /* o column */
+  justify-content: space-around; /* o space-between, center, etc. */
+  align-items: center; /* o flex-start, flex-end, etc. */
+}
+
+.contenedor-imagenes img {
+  width: 150px; /* o cualquier tamaño */
+  height: auto; /* o cualquier tamaño */
+  border-radius: 10px 5px 40px 20px;
+    -webkit-border-radius: 10px 5px 40px 20px;
+  -moz-border-radius: 10px 5px 40px 20px;
+  border: 5px double;
+}
+
+contenedor-ventanas{
+	display: flex;
+  flex-direction: row; /* o column */
+  justify-content: space-around; /* o space-between, center, etc. */
+  align-items: center; /* o flex-start, flex-end, etc. */
+}
+
+.footer {
+  background-color: #222;
+  color: #eee;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer {
+  background-color: #222;
+  color: #eee;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  margin: 10px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section a {
+  color: #eee;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section a:hover {
+  color: #1e90ff;
+}
+
+.socials a {
+  font-size: 1.5rem;
+  margin-right: 15px;
+}
+
+
+
+   
